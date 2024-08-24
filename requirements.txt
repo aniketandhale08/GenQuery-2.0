@@ -1,0 +1,9 @@
+streamlit
+google-generativeai
+pandas
+plotly
+sqlparse
+langchain
+python-dotenv
+pathlib
+sqlite3
