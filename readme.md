@@ -19,6 +19,8 @@ Advanced Features: Leverage TiDB's Vector Search capabilities to enhance retriev
 ![TiDB](https://github.com/user-attachments/assets/0afa45f3-cdb3-4e7f-9bdd-8a7e93d334a4)
 
 ## Built With
+![Tools diagram](https://github.com/user-attachments/assets/0658c049-9c9b-487a-858f-7c57971de27e)
+
 **1. Languages:** Python
 
 **2. Frameworks:** Streamlit
