@@ -19,7 +19,8 @@ Advanced Features: Leverage TiDB's Vector Search capabilities to enhance retriev
 ![TiDB](https://github.com/user-attachments/assets/0afa45f3-cdb3-4e7f-9bdd-8a7e93d334a4)
 
 ## Built With
-![Tools diagram](https://github.com/user-attachments/assets/0658c049-9c9b-487a-858f-7c57971de27e)
+
+![Blank diagram (1)](https://github.com/user-attachments/assets/4ac9335f-e88c-4834-9854-68f003ee5fc7)
 
 **1. Languages:** Python
 
@@ -65,10 +66,13 @@ pip install -r requirements.txt
 1. Sign Up: Register for a TiDB Cloud account.
 2. Database Configuration: Set up your database instance in TiDB Serverless and import your data.
 
-TIDBCLOUD_URL=https://data.tidbcloud.com/api/v1beta/apps/[YOUR_DATAAPI_ENDPOINT]/v1/chat2chart
-TIDBCLOUD_API_KEY=YOUR_DATA_API_KEY
-TIDBCLOUD_DB=YOUR_DATABASE_NAME
-TIDBCLOUD_CLUSTER_ID=YOUR_CLUSTER_ID
+[tidb]
+host = "<TiDB_cluster_host>"
+port = 4000
+database = "test"
+user = "<TiDB_cluster_user>"
+password = "<TiDB_cluster_password>"
+ssl_ca = "<path_to_CA_store>"
 ```
 
 4. Environment Variables
