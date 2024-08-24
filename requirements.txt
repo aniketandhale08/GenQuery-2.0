@@ -4,4 +4,3 @@ pandas
 plotly
 sqlparse
 python-dotenv
-sqlite3 >= 3.35.0
