@@ -1,7 +1,5 @@
 import streamlit as st
 import google.generativeai as genai
-import langchain  
-import mysql.connector
 import sqlite3
 import pandas as pd
 import plotly.express as px
